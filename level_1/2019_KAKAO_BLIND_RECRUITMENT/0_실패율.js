@@ -16,7 +16,6 @@ function solution(N, stages) {
     }
   });
 
-  const answer = [];
   let percent = [];
   arr.forEach((v, i) => {
     let pass = stages.filter((a) => a >= i + 1).length;
