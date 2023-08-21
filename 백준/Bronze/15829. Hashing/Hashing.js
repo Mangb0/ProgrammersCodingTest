@@ -29,5 +29,5 @@ const obj = {
   z: 26,
 };
 console.log(
-  [...input[1]].map((v, i) => obj[v] * 31 ** i).reduce((a, b) => a + b)
+  [...input[1]].map((v, i) => obj[v] * 31 ** i).reduce((a, b) => a + b)%1234567891
 );
